@@ -1,0 +1,9 @@
+.page-title {
+    padding: 20px;
+    border-left: 6px solid pink;
+    transition: all ease .5s;
+}
+
+.page-title:hover {
+    background: rgba(0, 0, 0, .2);
+}

@@ -1,0 +1,47 @@
+.nf-layout {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.nf-nav {
+    background-color: pink;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 80px;
+}
+
+.nf-nav ul {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.nf-nav ul li {
+    margin: 0 20px;
+    padding: 15px 20px;
+    transition: all ease .5s;
+    color: black;
+}
+
+.nf-nav ul li:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    
+}
+
+.nf-nav a {
+    text-decoration: none;
+    padding: 20px 36px;
+}
+
+.nf-nav a:hover {
+    widows: 100%;
+    color: white;
+}
+
+.nf-nav ul li:nth-child(1) {
+    /* margin-left: 0; */
+}

@@ -1,0 +1,23 @@
+.nf-article {
+    margin: 20px 0;
+    border: 2px dashed pink;
+    border-radius: 8px;
+    padding: 10px 20px;
+    transition: all ease .5s;
+    cursor: pointer;
+}
+
+.nf-article:hover {
+    transform: translateY(10px);
+    box-shadow: 0 12px 5px -6px #ccc;
+    border-color: black;
+}
+
+.nf-list a {
+    text-decoration: none;
+    /* color: black; */
+}
+
+.nf-list a:active {
+    /* color: pink; */
+}
